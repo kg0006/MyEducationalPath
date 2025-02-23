@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Users Page</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <form action="register" method="post" enctype="multipart/form-data">
+      <input type="text" name="name" placeholder="name" />
+      <input type="text" name="password" placeholder="password" />
+      <input type="text" name="email" placeholder="email" />
+      <input type="file" name="avatar" />
+      <button>register</button>
+    </form>
+    <ul>
+      <% users.forEach((user) => { %>
+      <li><%= user.name %> <img src="<%= user.imgUrl %>" /></li>
+      <% }) %>
+    </ul>
+  </body>
+</html>

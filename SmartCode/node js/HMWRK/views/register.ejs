@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <h1>REGISTRATION</h1>
+    <form action="register" enctype="multipart/form-data" method="post">
+      <input type="text" id="name" placeholder="Name" name="name" />
+      <input type="text" id="lastName" placeholder="LastName" name="lastName" />
+      <input type="number" id="age" placeholder="Age" name="age" />
+      <select id="gender" name="gender">
+        <option value="" disabled selected>Gender</option>
+        <option value="male">male</option>
+        <option value="female">female</option>
+      </select>
+      <input type="email" id="email" placeholder="Email" name="email" />
+      <input type="text" placeholder="password" name="password" />
+      <input type="text" placeholder="confirmPassword" name="confirmPassword" />
+      <label for="image" class="custom-file-upload"> Add Image </label>
+      <input type="file" id="image" name="avatar" />
+      <button>Confirm</button>
+    </form>
+  </body>
+</html>

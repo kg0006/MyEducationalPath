@@ -1,0 +1,11 @@
+[
+  {
+    "id": 2,
+    "name": "Syuzi",
+    "email": "syuzi@gmail.com",
+    "age": 19,
+    "gender": "famale",
+    "password": "1234",
+    "role": "admin"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "iPhone 15 Pro Max",
+    "brand": "Apple",
+    "model": "15 Pro Max",
+    "price": 1199.99,
+    "color": "Natural Titanium"
+  },
+  {
+    "id": 2,
+    "title": "Samsung Galaxy S23 Ultra",
+    "brand": "Samsung",
+    "model": "Galaxy S23 Ultra",
+    "price": 1249.99,
+    "color": "Phantom Black"
+  },
+  {
+    "id": 3,
+    "title": "Google Pixel 8 Pro",
+    "brand": "Google",
+    "model": "Pixel 8 Pro",
+    "price": 999.99,
+    "color": "Obsidian"
+  },
+  {
+    "id": 4,
+    "title": "OnePlus 11 5G",
+    "brand": "OnePlus",
+    "model": "11 5G",
+    "price": 699.99,
+    "color": "Titan Black"
+  },
+  {
+    "id": 5,
+    "title": "Xiaomi 13 Pro",
+    "brand": "Xiaomi",
+    "model": "13 Pro",
+    "price": 849.99,
+    "color": "Ceramic Black"
+  },
+  {
+    "id": 6,
+    "title": "Sony Xperia 1 V",
+    "brand": "Sony",
+    "model": "Xperia 1 V",
+    "price": 1399.99,
+    "color": "Black"
+  },
+  {
+    "id": 7,
+    "title": "Motorola Edge 40 Pro",
+    "brand": "Motorola",
+    "model": "Edge 40 Pro",
+    "price": 799.99,
+    "color": "Interstellar Black"
+  },
+  {
+    "id": 8,
+    "title": "Asus ROG Phone 7 Ultimate",
+    "brand": "Asus",
+    "model": "ROG Phone 7 Ultimate",
+    "price": 1399.99,
+    "color": "Storm White"
+  },
+  {
+    "id": 9,
+    "title": "Realme GT 3",
+    "brand": "Realme",
+    "model": "GT 3",
+    "price": 699.99,
+    "color": "Booster Black"
+  },
+  {
+    "id": 10,
+    "title": "Oppo Find X6 Pro",
+    "brand": "Oppo",
+    "model": "Find X6 Pro",
+    "price": 1099.99,
+    "color": "Black"
+  }
+]

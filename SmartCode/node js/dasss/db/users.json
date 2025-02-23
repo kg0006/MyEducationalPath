@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "age": 29,
+    "email": "alice.johnson@gmail.com",
+    "password": "password123",
+    "gender": "Woman",
+    "role": "Admin",
+    "status": "Inactive"
+  },
+  {
+    "id": 2,
+    "name": "Bob Smith",
+    "age": 34,
+    "email": "bob.smith@gmail.com",
+    "password": "securePass456",
+    "gender": "Man",
+    "role": "User",
+    "status": "Inactive"
+  },
+  {
+    "id": 3,
+    "name": "Charlie Brown",
+    "age": 25,
+    "email": "charlie.brown@gmail.com",
+    "password": "myPassword789",
+    "gender": "Man",
+    "role": "User",
+    "status": "Inactive"
+  },
+  {
+    "id": 4,
+    "name": "Diana Green",
+    "age": 40,
+    "email": "diana.green@gmail.com",
+    "password": "DianaPass321",
+    "gender": "Woman",
+    "role": "User",
+    "status": "Inactive"
+  },
+  {
+    "id": 5,
+    "name": "Evan White",
+    "age": 22,
+    "email": "evan.white@gmail.com",
+    "password": "Evan1234",
+    "gender": "Man",
+    "role": "Admin",
+    "status": "Active"
+  },
+  {
+    "id": 1735037212383,
+    "name": "Babo",
+    "age": "23",
+    "email": "babo@gmail.com",
+    "password": "1365",
+    "gender": "man",
+    "role": "User",
+    "status": "Active"
+  }
+]

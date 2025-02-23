@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Gagik",
+    "lastname": "Kutsanyan",
+    "age": 18,
+    "gender": "male"
+  },
+  {
+    "id": 2,
+    "name": "chgitem",
+    "lastname": "fantaziachka",
+    "age": 22,
+    "gender": "female"
+  },
+  {
+    "id": 3,
+    "name": "Vaspur",
+    "lastname": "Traktorist",
+    "age": 37,
+    "gender": "male"
+  },
+  {
+    "id": 4,
+    "name": "lena",
+    "lastname": "Nexyan",
+    "age": 19,
+    "gender": "female"
+  }
+]

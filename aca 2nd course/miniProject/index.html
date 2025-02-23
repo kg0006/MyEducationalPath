@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="style.css"></script>
+    <script src="index.js" defer></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="background">
+      <div id="window">
+        <h2>RGB Color Mixer</h2>
+        <div id="color"></div>
+        <div id="inputs">
+          <span>Red:</span>
+          <input
+            type="range"
+            title="Red"
+            min="0"
+            max="255"
+            value="0"
+            id="redInput"
+          /><span id="redVal">0</span><br />
+          <span>Green:</span>
+          <input
+            type="range"
+            title="Green"
+            min="0"
+            max="255"
+            value="0"
+            id="greenInput"
+          /><span id="greenVal">0</span><br />
+          <span>Blue:</span>
+          <input
+            type="range"
+            title="Blue"
+            min="0"
+            max="255"
+            value="0"
+            id="blueInput"
+          /><span id="blueVal">0</span><br />
+        </div>
+        <div id="current">rgb(0, 0, 0)</div>
+      </div>
+    </div>
+  </body>
+</html>

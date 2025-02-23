@@ -1,0 +1,101 @@
+.mother {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.container {
+  width: 500px;
+  height: 200px;
+  background: rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.nameDiv {
+  width: 135px;
+  height: 35px;
+}
+
+.name {
+  font-style: inherit;
+}
+
+.newPlan {
+  width: 300px;
+  height: 20px;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  padding: 10px;
+}
+
+.add {
+  width: 40px;
+  height: 40px;
+  background-color: darkgray;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+}
+
+.planMother {
+  display: flex;
+  justify-content: center;
+}
+
+.ulCont {
+  width: 500px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+
+ul li {
+  display: flex;
+
+  align-items: flex-start;
+  height: 70%;
+  width: 430px;
+  list-style: none;
+  font-size: 17px;
+  padding: 12px 33px 10px 0px;
+  user-select: none;
+  cursor: pointer;
+  position: relative;
+}
+
+ul li.checked {
+  color: #3e3e3e;
+  text-decoration: line-through;
+}
+
+ul li span {
+  position: absolute;
+  right: 5px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+
+ul li:hover {
+  right: 40px;
+  width: 470px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
+  background: #5a5a5a;
+  border-radius: 15px;
+  transition: width 1s;
+}
+
+ul li span:hover {
+  background: #8f8f8f;
+  border-radius: 15px;
+}

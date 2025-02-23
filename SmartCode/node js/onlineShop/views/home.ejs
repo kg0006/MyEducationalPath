@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/shop.css" />
+  </head>
+  <body>
+    <%- include('./header') %>
+    <div class="container">
+      <% data.products.forEach((el) => { %>
+      <div class="products">
+        <img src="<%= el.image %>" alt="Product" />
+        <p>TITLE<span><%= el.title %></span></p>
+        <p>BRAND<span><%= el.brand %></span></p>
+        <p>PRICE<span><%= el.price %>$</span></p>
+      </div>
+      <% }) %>
+      <ul class="pagination">
+        <li><a href="#">Prev</a></li>
+        <% for(let i = 1; i <= data.pageCount; i++) {%> <% if(data.page == i) {
+        %>
+        <li class="active"><a href="?page=<%= i %>"><%= i %></a></li>
+        <% } else { %>
+        <li><a href="?page=<%= i %>"><%= i %></a></li>
+        <% } %> <% } %>
+        <li><a href="#">Next</a></li>
+      </ul>
+      <script src="/js/index.js"></script>
+    </div>
+  </body>
+</html>

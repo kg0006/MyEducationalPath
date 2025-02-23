@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>User page</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <%- include('./header') %>
+ 
+    <input id="edite-inp" value="<%= user.name %>"/>
+    <button id="<%=user.id %>" data-action="edite">edite</button>
+
+    <script src="/js/index.js"></script>
+  </body>
+</html>

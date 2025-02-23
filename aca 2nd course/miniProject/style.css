@@ -1,0 +1,39 @@
+#background {
+  width: 200vh;
+  height: 100vh;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#window {
+  height: 350px;
+  width: 300px;
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 10px 5px 5px rgb(40, 40, 40);
+}
+
+#color {
+  height: 100px;
+  width: 100px;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: rgb(0, 0, 0);
+}
+
+#redInput {
+  accent-color: red;
+}
+#greenInput {
+  accent-color: green;
+}
+#blueInput {
+  accent-color: blue;
+}
