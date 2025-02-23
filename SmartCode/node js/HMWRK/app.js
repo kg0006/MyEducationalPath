@@ -38,7 +38,7 @@ app.use(function (req, res, next) {
 
 mongoose
   .connect(
-    "mongodb+srv://Gagik:gagik2018@cluster0.lxnqm.mongodb.net/test?retryWrites=true&w=majority&appName=Cluster0"
+    ""
   )
   .then(() => console.log("DB IS CONNECT"))
   .catch((err) => console.log(err));
